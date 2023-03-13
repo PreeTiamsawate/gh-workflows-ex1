@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Run Test
-        run: npm run test
+        run: npm test
   build: 
     needs: test
     runs-on: ubuntu-latest 
